@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Calender App </title>
+</head>
+<body>
+
+    <div class="container mt-4">
+        <h1 class="display-4 text-center">
+          <i class="fas fa-book-open text-primary"></i> Calender
+        </h1>
+
+
+        <div class="row">
+          <div class="col-8 mx-auto">
+              <div class="card my-3">
+
+                <h1 class=" text-center" id="monthAndYear">
+                   Month And Year
+                </h1>
+                <div class="form-inline">
+                  <button class="btn btn-outline-primary col-sm-6 prev">Previous</button>
+                  <button class="btn btn-outline-primary col-sm-6 next">Next</button>
+                </div>
+                <table class="table table-bordered " id="calender">
+                    <thead>
+                      <tr>
+                        <td>SUN</td>
+                        <td>MON</td>
+                        <td>TUE</td>
+                        <td>WED</td>
+                        <td>THU</td>
+                        <td>FRI</td>
+                        <td>SAT</td>
+                      </tr>
+                    </thead>
+                    <tbody id="calender-body">
+
+                    </tbody>
+                </table>
+                <h2 class="display-4 text-center border" id="show-date"></h2>
+
+            </div>
+
+
+          </div>
+        </div>
+        
+         
+    </div>
+    
+    
+
+    <script src="js/script.js"></script>
+
+    
+</body>
+</html>
